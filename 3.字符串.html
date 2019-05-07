@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	
+</head>
+<body>
+	<hr>
+</body>
+</html>
+<script>
+	// 把字符串变成数组
+	// var str="he*llo*wor*ld";
+	// var a=str.split("*");
+	// document.write(a);
+   //数组转字符串
+   // var a=[20,34,29,39,89]
+   // var b=a.join("*");
+   // document.write(b);
+   document.write("<h3 align='center'>打印金字塔</h3>");
+   var i=5;
+   while(i<30){
+   	document.write("<hr width="+i+"%>");
+   	i+=5;
+   }
+
+   var j=30
+   while(j>5){
+      r=Math.floor(Math.random()*255+10);
+      g=Math.floor(Math.random()*255+10);
+      b=Math.floor(Math.random()*255+10);
+      //document.write("<hr width="+j+"% color=red>");
+         document.write("<hr width="+j+"% color=rgb("+r+","+g+","+b+")>");
+      j-=5;
+
+   }
+</script>

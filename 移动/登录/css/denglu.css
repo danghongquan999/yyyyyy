@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,ul,ol,dl,dd,h1,h2,h3,h4,h5,h6,input,select,textarea,td{
+	margin:0;
+	padding:0;
+}
+html{
+	font-size: 26.67vw;
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑";
+	background: #f5f5f5;
+	display: flex;
+	flex-direction: column;
+}
+ul,ol,li{
+	list-style:none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border:0;
+}
+/*header*/
+header{
+	width: 100%;
+	height: 1.65rem;
+	margin-bottom: .1rem;
+	background: white;
+}
+.header_top{
+	width: 100%;
+	height: 1rem;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header_top a{
+	display: flex;
+    align-items: center;
+}
+.header_top img{
+	display: block;
+	width: .56rem;
+	height: .56rem;
+	margin-right: 10px;
+}
+.header_top h3{
+	font-size: 18px;
+	color: black;
+	line-height: 18px;
+	margin-bottom: 12px;
+}
+.header_top h5{
+	font-size: 12px;
+	color: #999d9e;
+	line-height: 12px;
+}
+.sz{
+	font-size: 13px;
+	color: #394043;
+	margin-top: .15rem;
+	margin-right: .15rem;
+}
+.header_bot{
+	width: 100%;
+	height: .65rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex:1;
+}
+.header_bot a{
+	text-align: center;
+}
+.header_bot h3{
+	font-size: 10px;
+	color: #394043;
+}
+.header_bot h4{
+	font-size: 12px;
+	color: #606668;
+}
+/*section*/
+section{
+	flex:1;
+	overflow-y: auto;
+	display: flex;
+	width: 100%;
+	background: white;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+.my{
+	display: flex;
+	width: 100%;
+	background: white;
+	flex-shrink: 0;
+	flex-wrap: wrap;
+}
+section a{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 1.245rem;
+	height: .775rem;
+	box-sizing: border-box;
+	border-right: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+section span{
+	font-size: 12px;
+	color:#606668;
+}
+section img{
+	width: .25rem;
+	height: .25rem;
+}
+.banner{
+	width: 100%;
+	height: .875rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: 1px solid #eeeeee;
+}
+.banner img{
+	width: 3.45rem;
+	height: .575rem;
+}
+.DF{
+	width: 100%;
+	height: .85rem;
+	display: flex;
+	flex-shrink: 0;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	align-items: center;
+	margin-bottom: .1rem;
+}
+.DF a{
+	width: .58rem;
+	height: .55rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 12px;
+	color:#606668;
+}
+.DF img{
+	width: .27rem;
+	height:.25rem;
+	border:0;
+}
+/*footer*/
+footer{
+	width: 100%;
+	height: .49rem;
+	background: white;
+	border-top: 1px solid #eeeeee;
+}
